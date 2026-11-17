@@ -6,19 +6,19 @@
 class Uloop < Formula
   desc "Let AI drive Unity, from Editor to Play Mode"
   homepage "https://github.com/hatayama/unity-cli-loop"
-  version "3.18.0"
+  version "3.18.1"
   license "MIT"
 
   depends_on :macos
 
   on_macos do
     on_arm do
-      url "https://github.com/hatayama/unity-cli-loop/releases/download/dispatcher-v3.18.0/uloop-dispatcher-darwin-arm64.tar.gz"
-      sha256 "fa6b7b4ac1549555df9f9e1eabbe1a99fa07fe0bd2385098d784ecba03fca9f4"
+      url "https://github.com/hatayama/unity-cli-loop/releases/download/dispatcher-v3.18.1/uloop-dispatcher-darwin-arm64.tar.gz"
+      sha256 "610d765128350ee2fd9320c5684fdc192454429d3c5ed4309a0c4a700f677a5b"
     end
     on_intel do
-      url "https://github.com/hatayama/unity-cli-loop/releases/download/dispatcher-v3.18.0/uloop-dispatcher-darwin-amd64.tar.gz"
-      sha256 "2b88144ced98880ea0807f33d3b25f89509085328a3e7cd82f5b370751da48ef"
+      url "https://github.com/hatayama/unity-cli-loop/releases/download/dispatcher-v3.18.1/uloop-dispatcher-darwin-amd64.tar.gz"
+      sha256 "de05e184030e0ade0676bbd32f168f24434105449fd56b464d2df8a140cd6ee0"
     end
   end
 
